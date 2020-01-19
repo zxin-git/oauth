@@ -13,8 +13,5 @@ spring:
     name: resource-server
   security:
     oauth2:
-      client:
-        clientId: user-client
-        clientSecret: user-secret-8888
       resource:
-        tokenInfoUri: https://localhost:8080/oauth/check_token
+        token-info-uri: http://localhost:8080/oauth/check_token

@@ -23,6 +23,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+        <spring-cloud-oauth2.version>2.2.0.RELEASE</spring-cloud-oauth2.version>
         <swagger.version>2.9.2</swagger.version>
     </properties>
 

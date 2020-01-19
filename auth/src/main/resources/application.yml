@@ -11,18 +11,18 @@ logging.level.org.springframework.security: DEBUG
 spring:
   application:
     name: auth-server
-  redis:
-    database: 1
-    host: 10.1.249.83
-    password: ''
-    port: 6379
-    timeout: 1000
-  datasource:
-    url: jdbc:mysql://localhost:3306/oauth?characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: root
-    hikari:
-      connection-timeout: 30000
-      idle-timeout: 600000
-      max-lifetime: 1800000
-      maximum-pool-size: 9
+#  redis:
+#    database: 1
+#    host: 10.1.249.83
+#    password: ''
+#    port: 6379
+#    timeout: 1000
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/oauth?characterEncoding=UTF-8&useSSL=false
+#    username: root
+#    password: root
+#    hikari:
+#      connection-timeout: 30000
+#      idle-timeout: 600000
+#      max-lifetime: 1800000
+#      maximum-pool-size: 9
