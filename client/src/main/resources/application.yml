@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+management:
+  endpoint:
+    health:
+      enabled: true
+
+logging.level.org.springframework.security: DEBUG
+
+spring:
+  application:
+    name: auth-server
